@@ -1,0 +1,19 @@
+# Dependencias
+node_modules/
+vendor/
+
+# Contraseñas y configuraciones privadas
+.env
+.env.local
+config.local.php
+
+# Archivos del editor y sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Archivos temporales y bases de datos
+*.log
+*.sql
+*.sqlite
