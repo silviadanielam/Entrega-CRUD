@@ -16,4 +16,5 @@ Thumbs.db
 # Archivos temporales y bases de datos
 *.log
 *.sql
+!database.sql
 *.sqlite
