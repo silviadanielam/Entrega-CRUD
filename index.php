@@ -141,7 +141,7 @@ foreach ($productos as $p) {
   <style>
     *{box-sizing:border-box}
     body{font-family:system-ui,-apple-system,sans-serif;background:#f4f6f9;color:#1a1a2e;margin:0;padding:24px}
-    .contenedor{max-width:960px;margin:0 auto}
+    .contenedor{max-width:1200px;margin:0 auto}
     header{background:linear-gradient(120deg,#0d2b4a,#1178be);color:#fff;padding:18px 22px;border-radius:10px;margin-bottom:20px}
     header h1{margin:0;font-size:1.35rem}
     .kpis{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:20px}
@@ -150,7 +150,7 @@ foreach ($productos as $p) {
     .kpi strong{font-size:1.25rem}
     .panel{display:grid;grid-template-columns:320px 1fr;gap:20px;align-items:start}
     @media(max-width:780px){.panel,.kpis{grid-template-columns:1fr}}
-    .caja{background:#fff;padding:18px;border-radius:10px;border:1px solid #dce1e7}
+    .caja{background:#fff;padding:18px;border-radius:10px;border:1px solid #dce1e7;min-width: 0}
     .caja h2{margin-top:0;font-size:1.05rem}
     label{display:block;font-size:.85rem;font-weight:600;margin:10px 0 4px}
     input,select{width:100%;padding:8px 10px;border:1px solid #cbd2d9;border-radius:6px;font-size:.92rem}
